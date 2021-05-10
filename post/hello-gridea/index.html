@@ -1,87 +1,90 @@
+
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>I begin my English diary for not only IETLES in July,2021, but also for technique and to memorize everyday detail. | Gridea</title>
-<link rel="shortcut icon" href="https://insjfsafh.github.io/favicon.ico?v=1620608911986">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+    
+<meta charset="utf-8" >
+
+<title>I begin my English diary for not only IETLES in July,2021, but also for technique and to memorize everyday detail. | hyd&#39;s Web</title>
+<meta name="description" content="The wrong time to learn how to do something is when you need to do it, but in truth most people only learn how to do something when it is necessary.">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://insjfsafh.github.io/favicon.ico?v=1620609199684">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://insjfsafh.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="I begin my English diary for not only IETLES in July,2021, but also for technique and to memorize everyday detail. | Gridea - Atom Feed" href="https://insjfsafh.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
 
 
 
-    <meta name="description" content="《Git在IDEA中的使用（详细图文全解）》https://blog.csdn.net/mucaoyx/article/details/98476174?utm_source=app&amp;app_version=4.6.0
-this c..." />
-    <meta name="keywords" content="Gridea" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="https://insjfsafh.github.io">
-  <img class="avatar" src="https://insjfsafh.github.io/images/avatar.png?v=1620608911986" alt="">
-  </a>
-  <h1 class="site-title">
-    Gridea
-  </h1>
-  <p class="site-description">
-    温故而知新
-  </p>
-  <div class="menu-container">
-    
-      
-        <a href="/" class="menu">
-          首页
-        </a>
-      
-    
-      
-        <a href="https://insjfsafh.github.io/post/guan-yu-wo" class="menu">
-          关于
-        </a>
-      
-    
-  </div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="https://insjfsafh.github.io">
+        <img class="avatar" src="https://insjfsafh.github.io/images/avatar.png?v=1620609199684" alt="" width="32px" height="32px">
+      </a>
+      <a href="https://insjfsafh.github.io">
+        <h1 class="site-title">hyd&#39;s Web</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
   </div>
 </div>
 
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
+        
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="https://insjfsafh.github.io/post/guan-yu-wo" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
+
+
+      <div class="content-container">
         <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              I begin my English diary for not only IETLES in July,2021, but also for technique and to memorize everyday detail.
-            </h2>
-            <div class="post-info">
-              <span>
-                2018-12-12
-              </span>
-              <span>
-                2 min read
-              </span>
-              
-                <a href="https://insjfsafh.github.io/tag/Y130X3cd_/" class="post-tag">
-                  # Gridea
-                </a>
-              
-            </div>
+          
+          <h2 class="post-title">I begin my English diary for not only IETLES in July,2021, but also for technique and to memorize everyday detail.</h2>
+          <div class="post-info post-detail-info">
+            <span><i class="icon-calendar-outline"></i> 2018-12-12</span>
             
-            <div class="post-content-wrapper">
-              <div class="post-content">
-                <p>《Git在IDEA中的使用（详细图文全解）》https://blog.csdn.net/mucaoyx/article/details/98476174?utm_source=app&amp;app_version=4.6.0<br>
+              <span>
+                <i class="icon-pricetags-outline"></i>
+                
+                  <a href="https://insjfsafh.github.io/tag/Y130X3cd_/">
+                    Gridea
+                    
+                  </a>
+                
+              </span>
+            
+          </div>
+          <div class="post-content">
+            <p>《Git在IDEA中的使用（详细图文全解）》https://blog.csdn.net/mucaoyx/article/details/98476174?utm_source=app&amp;app_version=4.6.0<br>
 this can help you learn the basic operation of the git.<br>
 but I still not know how to roll back when I have push it to the github.<br>
 I still have limitied knowlege of github.<br>
@@ -102,67 +105,49 @@ roost is becoming popular!almost in 10?<br>
 c is the most popular, if you want initiate in hardware?<br>
 java is the second</p>
 
-              </div>
-              <div class="toc-container">
-                
-              </div>
-            </div>
-          </article>
+          </div>
         </div>
 
         
+      </div>
 
-        
+      
 
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="https://insjfsafh.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
+      <div class="site-footer">
+  <div class="slogan">The wrong time to learn how to do something is when you need to do it, but in truth most people only learn how to do something when it is necessary.</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://insjfsafh.github.io/atom.xml" target="_blank">RSS</a>
 </div>
 
-      </div>
+
     </div>
+    <script type="application/javascript">
 
-    <script>
-      hljs.initHighlightingOnLoad()
+hljs.initHighlightingOnLoad()
 
-      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
-      // This should probably be throttled.
-      // Especially because it triggers during smooth scrolling.
-      // https://lodash.com/docs/4.17.10#throttle
-      // You could do like...
-      // window.addEventListener("scroll", () => {
-      //    _.throttle(doThatStuff, 100);
-      // });
-      // Only not doing it here to keep this Pen dependency-free.
+</script>
 
-      window.addEventListener("scroll", event => {
-        let fromTop = window.scrollY;
 
-        mainNavLinks.forEach((link, index) => {
-          let section = document.getElementById(decodeURI(link.hash).substring(1));
-          let nextSection = null
-          if (mainNavLinks[index + 1]) {
-            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-          }
-          if (section.offsetTop <= fromTop) {
-            if (nextSection) {
-              if (nextSection.offsetTop > fromTop) {
-                link.classList.add("current");
-              } else {
-                link.classList.remove("current");    
-              }
-            } else {
-              link.classList.add("current");
-            }
-          } else {
-            link.classList.remove("current");
-          }
-        });
-      });
 
-    </script>
+
   </body>
 </html>
