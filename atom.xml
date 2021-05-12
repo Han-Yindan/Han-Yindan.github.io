@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Han-Yindan.github.io</id>
     <title>hyd</title>
-    <updated>2021-05-12T02:33:34.178Z</updated>
+    <updated>2021-05-12T02:46:05.001Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Han-Yindan.github.io"/>
     <link rel="self" href="https://Han-Yindan.github.io/atom.xml"/>
@@ -55,19 +55,19 @@ below are the knowledge I learned in the evening.</p>
         <link href="https://Han-Yindan.github.io/post/git/">
         </link>
         <updated>2021-05-10T01:02:24.000Z</updated>
-        <content type="html"><![CDATA[<p>https://www.cnblogs.com/liaow...<br>
+        <content type="html"><![CDATA[<p>https://www.cnblogs.com/liaowenhui/p/12391934.html<br>
 git's code color<br>
 maven in idea<br>
 detail teaching in setting.xml<br>
-https://www.cnblogs.com/hongm...<br>
+https://www.cnblogs.com/hongmoshui/p/10762272.html<br>
 location of setting<br>
-https://blog.csdn.net/fengqin...<br>
+https://blog.csdn.net/fengqing5578/article/details/82854495<br>
 add mirror if you have no vpn<br>
-https://blog.csdn.net/weixin_...<br>
+https://blog.csdn.net/weixin_34355715/article/details/92399687<br>
 I am almost crazy when I have set my setting.xml, but still have red lines in plugin, this may be helpful:<br>
-https://blog.csdn.net/weixin_...<br>
-https://www.freesion.com/arti...<br>
-https://www.cnblogs.com/evach...</p>
+https://blog.csdn.net/weixin_44005516/article/details/108293228<br>
+https://www.freesion.com/article/84471234235/<br>
+https://www.cnblogs.com/evachen/p/11474276.html</p>
 ]]></content>
     </entry>
     <entry>
@@ -76,14 +76,16 @@ https://www.cnblogs.com/evach...</p>
         <link href="https://Han-Yindan.github.io/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
-        <content type="html"><![CDATA[<p>《Git在IDEA中的使用（详细图文全解）》https://blog.csdn.net/mucaoyx/article/details/98476174?utm_source=app&amp;app_version=4.6.0<br>
-this can help you learn the basic operation of the git.<br>
-but I still not know how to roll back when I have push it to the github.<br>
-I still have limitied knowlege of github.<br>
-especially copy(admire) others beauty code.<br>
-I communicated with an excellent classmate, learning that before relying others people, making yourself better enough.<br>
-I known that every class is interesting and useful which I taken this semester. but maybe the not every minutes<br>
-support my idea of tomcat -- a web server, but not done marven, which is needed in springboot, which means you needn't configure environment varible<br>
+        <content type="html"><![CDATA[<h2 id="i-begin-my-english-diary-for-not-only-ietles-in-july2021-but-also-for-technique-and-to-memorize-everyday-detail">I begin my English diary for not only IETLES in July,2021, but also for technique and to memorize everyday detail.</h2>
+<ul>
+<li>《Git在IDEA中的使用（详细图文全解）》<a href="http://">https://blog.csdn.net/mucaoyx/article/details/98476174?utm_source=app&amp;app_version=4.6.0</a></li>
+<li>this can help you learn the basic operation of the git.</li>
+<li>but I still not know how to roll back when I have push it to the github.</li>
+<li>I still have limitied knowlege of github.</li>
+<li>especially copy(admire) others beauty code.</li>
+<li>I communicated with an excellent classmate, learning that before relying others people,  making yourself better enough.</li>
+<li>I known that every class is interesting and useful which I taken this semester. but maybe the not every minutes</li>
+<li>support my idea of tomcat -- a web server, but not done marven, which is needed in springboot, which means you needn't configure environment varible<br>
 -java learning:<br>
 define of array ,two way<br>
 exception which needed to included(must), but some exception in java can be selected<br>
@@ -95,7 +97,8 @@ attribute in(x,y,z,...)（QA4 I change some answers given by teacher,and I think
 --tool class:<br>
 roost is becoming popular!almost in 10?<br>
 c is the most popular, if you want initiate in hardware?<br>
-java is the second</p>
+java is the second</li>
+</ul>
 ]]></content>
     </entry>
 </feed>
